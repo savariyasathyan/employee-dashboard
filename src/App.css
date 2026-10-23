@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #243247;
+}
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  font-size: 1.35rem;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container h1 {
+  color: #243b63;
+}
+
+.card {
+  border-radius: 14px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+}
+
+.form-card {
+  max-width: 600px;
+}
+
+.form-control {
+  padding: 11px 12px;
+  border-radius: 8px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 12px !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+}
